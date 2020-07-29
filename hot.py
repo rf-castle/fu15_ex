@@ -13,6 +13,6 @@ for n in range(3):
         tails += 1
 print(f"Heads: {heads}, Tails: {tails}")
 if heads > tails:
-    print("You won,")
+    print(f"{name} won!")
 else:
-    print("You lost.")
+    print(f"{name} lost.")
