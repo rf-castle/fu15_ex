@@ -10,3 +10,7 @@ for n in range(3):
         print("Tails")
         tails += 1
 print(f"Heads: {heads}, Tails: {tails}")
+if heads > tails:
+    print("You won,")
+else:
+    print("You lost.")
