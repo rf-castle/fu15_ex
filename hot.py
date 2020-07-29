@@ -1,5 +1,7 @@
 import random
 heads = tails = 0
+name = input("Who are you?\n> ")
+print(f"Hello, {name}!")
 print("Tossing a coin...")
 for n in range(3):
     print(f"Round {n}: ", end="")
